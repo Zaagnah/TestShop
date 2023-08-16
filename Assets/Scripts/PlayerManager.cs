@@ -11,6 +11,8 @@ public class PlayerManager : MonoBehaviour
         Legs,
         Weapon,
     }
+    [SerializeField]
+    public GameObject player;
 
     [SerializeField]
     public float goldAmount = 50f;
@@ -18,8 +20,6 @@ public class PlayerManager : MonoBehaviour
 
     
 
-    private GameObject equippedHelmet; // Текущий шлем
-    private GameObject equippedArmor; // Текущая броня
 
     void Start()
     {

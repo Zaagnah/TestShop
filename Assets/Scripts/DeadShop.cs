@@ -25,6 +25,9 @@ public class DeadShop : MonoBehaviour
 		{
 			playerManager.goldAmount = playerManager.goldAmount - item.price;
 			Debug.Log(" You bought " + " " + item.id );
+			var newItem = Instantiate(item.prefab, transform.position, transform.rotation);
+			newItem.transform.parent = GameObject.Find("Rogue").transform;
+			Debug.Log(item.id);
 			items.Remove(item);
 			
 		}

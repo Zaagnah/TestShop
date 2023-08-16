@@ -1924,7 +1924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f0e01c51b891341bee2ba91b25f93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldAmount: 50
+  player: {fileID: 958838428}
+  goldAmount: 61
 --- !u!1 &970018778
 GameObject:
   m_ObjectHideFlags: 0
