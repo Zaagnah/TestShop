@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e125a1f42b8737640b91f278de55f22b, type: 3}
+  m_Name: HoodGreen
+  m_EditorClassIdentifier: 
+  id: Hood of anti-power
+  icon: {fileID: 21300000, guid: f7e7bed775fff8347b9e53c67e20875f, type: 3}
+  prefab: {fileID: 3437999324079743791, guid: 6943a5085dc1d874bb53696e3713aea9, type: 3}
+  price: 30

@@ -8,9 +8,11 @@ public class ButtonTrigger : MonoBehaviour
     GameObject buttonForFire;
     [SerializeField]
     GameObject candles;
+
     bool buttonActive = false;
     bool candlesActive = false;
-    InteractionButton interactionButton;
+
+    
 
     void Start()
     {
@@ -24,6 +26,7 @@ public class ButtonTrigger : MonoBehaviour
         {
             if (candlesActive == false)
             {
+                Debug.Log("PRESS E");
                 buttonForFire.SetActive(true);
                 buttonActive = true;
             }
